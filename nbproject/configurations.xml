@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="com" displayName="com" projectFiles="true">
+        <logicalFolder name="sowrov" displayName="sowrov" projectFiles="true">
+          <logicalFolder name="io" displayName="io" projectFiles="true">
+            <itemPath>Otocoder/src/com/sowrov/io/File.cpp</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/io/File.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="otocoder" displayName="otocoder" projectFiles="true">
+            <logicalFolder name="codegen" displayName="codegen" projectFiles="true">
+              <itemPath>Otocoder/src/com/sowrov/otocoder/codegen/CodeInterface.h</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/otocoder/codegen/CppCode.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/otocoder/codegen/CppCode.h</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/otocoder/codegen/JavaCode.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/otocoder/codegen/JavaCode.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="http" displayName="http" projectFiles="true">
+              <itemPath>Otocoder/src/com/sowrov/otocoder/http/PageDownloader.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/otocoder/http/PageDownloader.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="parser" displayName="parser" projectFiles="true">
+              <itemPath>Otocoder/src/com/sowrov/otocoder/parser/TcHtmlParser.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/otocoder/parser/TcHtmlParser.h</itemPath>
+            </logicalFolder>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/Method.cpp</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/Method.h</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/Problem.cpp</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/Problem.h</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/ProblemInfo.cpp</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/ProblemInfo.h</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/TestData.cpp</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/TestData.h</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/Variable.cpp</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/Variable.h</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/VariableValue.cpp</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/VariableValue.h</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/argvparser.cpp</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/argvparser.h</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/globals.h</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/otocoder/main.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder name="util" displayName="util" projectFiles="true">
+            <logicalFolder name="logsystem" displayName="logsystem" projectFiles="true">
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/Calendar.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/Calendar.h</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/ChronicleLogger.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/ChronicleLogger.h</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/Console.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/Console.h</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/DiskFile.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/DiskFile.h</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/Html.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/Html.h</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/LevelManager.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/LevelManager.h</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/LogFormatter.h</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/OutputDevice.h</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/PlainText.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/logsystem/PlainText.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="thread" displayName="thread" projectFiles="true">
+              <itemPath>Otocoder/src/com/sowrov/util/thread/ThreadLocker.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/thread/ThreadLocker.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="visualstudio"
+                           displayName="visualstudio"
+                           projectFiles="true">
+              <itemPath>Otocoder/src/com/sowrov/util/visualstudio/VSProject2008.cpp</itemPath>
+              <itemPath>Otocoder/src/com/sowrov/util/visualstudio/VSProject2008.h</itemPath>
+            </logicalFolder>
+            <itemPath>Otocoder/src/com/sowrov/util/MiscellaneousMethods.h</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/util/NoSuchElementException.h</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/util/PrimitiveData.h</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/util/StringTokenizer.h</itemPath>
+            <itemPath>Otocoder/src/com/sowrov/util/StringUtil.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>Otocoder/src/com</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>Otocoder/src</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/otocoder</output>
+          <linkerLibItems>
+            <linkerLibLibItem>curl</linkerLibLibItem>
+            <linkerLibLibItem>xml2</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Otocoder/src/com/sowrov/io/File.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/io/File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/Method.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/Method.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/Problem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/Problem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/ProblemInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/ProblemInfo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/TestData.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/TestData.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/Variable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/Variable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/VariableValue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/VariableValue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/argvparser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/argvparser.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/codegen/CodeInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/codegen/CppCode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/codegen/CppCode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/codegen/JavaCode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/codegen/JavaCode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/globals.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/http/PageDownloader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/http/PageDownloader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/parser/TcHtmlParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/parser/TcHtmlParser.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/MiscellaneousMethods.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/NoSuchElementException.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/PrimitiveData.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/StringTokenizer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/StringUtil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/Calendar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/Calendar.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/ChronicleLogger.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/ChronicleLogger.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/Console.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/Console.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/DiskFile.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/DiskFile.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/Html.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/Html.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/LevelManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/LevelManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/LogFormatter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/OutputDevice.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/PlainText.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/PlainText.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/thread/ThreadLocker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/thread/ThreadLocker.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/visualstudio/VSProject2008.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/visualstudio/VSProject2008.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Otocoder/src/com/sowrov/io/File.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/io/File.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/Method.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/Method.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/Problem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/Problem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/ProblemInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/ProblemInfo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/TestData.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/TestData.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/Variable.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/Variable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/VariableValue.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/VariableValue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/argvparser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/argvparser.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/codegen/CodeInterface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/codegen/CppCode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/codegen/CppCode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/codegen/JavaCode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/codegen/JavaCode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/globals.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/http/PageDownloader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/http/PageDownloader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/parser/TcHtmlParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/otocoder/parser/TcHtmlParser.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/MiscellaneousMethods.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/NoSuchElementException.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/PrimitiveData.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/StringTokenizer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/StringUtil.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/Calendar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/Calendar.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/ChronicleLogger.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/ChronicleLogger.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/Console.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/Console.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/DiskFile.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/DiskFile.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/Html.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/Html.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/LevelManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/LevelManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/LogFormatter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/OutputDevice.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/PlainText.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/logsystem/PlainText.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/thread/ThreadLocker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/thread/ThreadLocker.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/visualstudio/VSProject2008.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Otocoder/src/com/sowrov/util/visualstudio/VSProject2008.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
