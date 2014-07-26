@@ -37,25 +37,27 @@ std::string TcHtmlParser::extractId(std::string& str, std::string query) {
 }
 
 std::string TcHtmlParser::getLineAfter(const std::string& text, const std::string& query, size_t& lastPos) {
-    size_t pos1;
-    std::string str="";
-    while(true) {
-        pos1 = text.find(query, lastPos)+query.length();
-        if (pos1==std::string::npos) {
-            _CLogCritical("Could not find '"+query+"' word!");
-            return "";
-        }
-        lastPos = text.find('\n', pos1+1);
-        if (lastPos==std::string::npos) {
-            lastPos=text.length()-1;
-        }
-        str = text.substr(pos1, lastPos-pos1+1);
-        this->trim(str);
-        if (!str.empty()) {
-            break;
-        }
-    }
-    return str;
+	size_t pos1;
+	std::string str = "";
+	bool gotEnd = false;
+	while (true) {
+		pos1 = text.find(query, lastPos) + query.length();
+		if (pos1 == std::string::npos) {
+			_CLogCritical("Could not find '" + query + "' word!");
+			return "";
+		}
+		lastPos = text.find('\n', pos1 + 1);
+		if (lastPos == std::string::npos) {
+			lastPos = text.length() - 1;
+			gotEnd = true;
+		}
+		str = text.substr(pos1, lastPos - pos1 + 1);
+		this->trim(str);
+		if (!str.empty() || gotEnd) {
+			break;
+		}
+	}
+	return str;
 }
 
 bool TcHtmlParser::parseVariable(std::string& str, Variable& var) {
