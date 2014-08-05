@@ -83,6 +83,7 @@ int collectProblemData(PageDownloader& pageDownloader, TcHtmlParser& htmlParser,
     }
     //2. login
     int totalTry=3;
+	_CLogInfo("Trying to login to the server...");
     while(totalTry-- && !pageDownloader.tcServerLogin(USER,PASS)) {
         _CLogDebug("Failed attempt to login: "+totalTry);
     }
@@ -95,6 +96,7 @@ int collectProblemData(PageDownloader& pageDownloader, TcHtmlParser& htmlParser,
     
     //3. search the class using query word: http://community.topcoder.com/tc?module=ProblemArchive&class=Time
     //   collect problemId and roundId
+	_CLogInfo("Trying to search the problem in TC...");
     pageText = getAPage(pageDownloader, Globals::getSearchUrl(className));
     std::vector<ProblemInfo> problemList = htmlParser.parseProblemInfoSearch(pageText, className);
 
@@ -126,26 +128,33 @@ int collectProblemData(PageDownloader& pageDownloader, TcHtmlParser& htmlParser,
     _CLogInfo("Found the problem: "+problem.getClassName());
 
     //4. get problem statement 
+	_CLogInfo("Try to get the problem statement...");
     pageText = getAPage(pageDownloader, Globals::getProblemStatementUrl(problem.getProblemId()));
+	_CLogInfo("Got the problem statement.");
+
     if (!htmlParser.parseProblemDescription(pageText, problem)) {
         _CLogFatal("Parser was unable to download/parse problem description. Please try again.");
         exit(-1);
     }
-    
+	_CLogInfo("Problem statement parsing complete.");
     //rd=15501&pm=12588
     //problem.setProblemId(std::string("12588"));
     //problem.setRoundId(std::string("15501"));
     //5. get the problem detail page to get fastest solver (coder) Id
+	_CLogInfo("Try to get the problem state page...");
     pageText = getAPage(pageDownloader, Globals::getDetailPageUrl(problem.getProblemId(), problem.getRoundId()));
+	_CLogInfo("Got the problem state page.");
     if (!htmlParser.parseProblemDetails(pageText, problem) || problem.getCoderId().empty()) {
         _CLogWarning("No way to get full test cases from web!");
     } else {
         //6. get full test cases
+		_CLogInfo("Try to downloaded the test data page...");
         pageText = getAPage(pageDownloader, Globals::getSolutionPageUrl(problem.getProblemId(), problem.getRoundId(), problem.getCoderId()));
+		
         if (!htmlParser.parseProblemTestset(pageText, problem)) {
             _CLogWarning("Failed to get Full test set!");
         } else {
-            _CLogInfo("Successfully downloaded full test set.");
+            _CLogInfo("Successfully downloaded and parsed the full test set.");
         }
     }
 }
@@ -323,7 +332,7 @@ int main(int argc, char* argv[]) {
         ofs<<currentDateTime()<<std::endl; //start time
         ofs.close();
     }
-
+	_CLogInfo("Successfully generated all the necessary files in ./" + problem.getClassName());
     return 0;
 }
 

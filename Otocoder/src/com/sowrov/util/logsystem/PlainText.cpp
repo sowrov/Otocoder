@@ -7,7 +7,7 @@ namespace util {
 namespace logsystem {
 
 	std::string PlainText::getIntroFormat() {
-		std::string format = "Last Compile Time: ";
+		std::string format = "Otocoder Build: ";
 		format += __DATE__;
 		format += " ";
 		format += __TIME__;
@@ -80,6 +80,8 @@ namespace logsystem {
 		char tmp[10];
 		sprintf (tmp, "%d--", lineNo);
 
+		format += Calendar::getCalendar().getFormattedDate("d-m-Y-H:i:s");
+		format += " - ";
 		format += fileName+ ":";
 		format += tmp;
 		format += functionName+"(...)\n>> ";
