@@ -34,6 +34,7 @@ namespace logsystem {
 		format += " function:";
 		format += functionName+"(...)\n";
 		format += "Time: ";
+		Calendar::getCalendar().updateCalender();
 		format += Calendar::getCalendar ().getFormattedDate ("d F Y H:i:s")+"\n\n";
 
 		format += "Cause: ";
@@ -55,6 +56,7 @@ namespace logsystem {
 		format += " function:";
 		format += functionName+"(...)\n";
 		format += "Time: ";
+		Calendar::getCalendar().updateCalender();
 		format += Calendar::getCalendar ().getFormattedDate ("d F Y H:i:s")+"\n\n";
 
 		format += "Cause: ";
@@ -80,6 +82,7 @@ namespace logsystem {
 		char tmp[10];
 		sprintf (tmp, "%d--", lineNo);
 
+		Calendar::getCalendar().updateCalender();
 		format += Calendar::getCalendar().getFormattedDate("d-m-Y-H:i:s");
 		format += " - ";
 		format += fileName+ ":";

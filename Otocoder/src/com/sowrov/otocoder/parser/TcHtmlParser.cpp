@@ -160,7 +160,7 @@ bool TcHtmlParser::readSingleVariableValue(const std::string& problemStatement, 
                 varVal.addData(str);
             }
         } else {
-            com::sowrov::util::StringTokenizer strTok(tmpStr, ", ");
+            com::sowrov::util::StringTokenizer strTok(tmpStr, ", \n\t\r");
             while(strTok.hasMoreTokens()) {
                 varVal.addData(strTok.nextToken());
             }
